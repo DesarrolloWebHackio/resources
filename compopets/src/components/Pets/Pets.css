@@ -1,0 +1,41 @@
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pets > div {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pets > div img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.pets > div > div {
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pets > div button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

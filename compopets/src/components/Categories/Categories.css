@@ -1,0 +1,31 @@
+.categories {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.categories > button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.categories > button:hover {
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 1);
+}
+
+.categories > button img {
+    width: 40px;
+
+}
